@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 import altair as alt
 import streamlit as st
-import sklearn 
 from sklearn.datasets import make_blobs
 from sklearn.cluster import KMeans
 
@@ -31,4 +30,3 @@ chart_centers = alt.Chart(df_centers).mark_point().encode(
 )
 
 chart1 + chart_centers
-
