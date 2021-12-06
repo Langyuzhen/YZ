@@ -5,6 +5,7 @@ st.markdown('Name: Yuzhen Lang')
 st.markdown('Student ID: 53364275')
 st.markdown('## Link')
 st.markdown('[Link to the dataset](https://data.cnra.ca.gov/dataset/3f96977e-2597-4baa-8c9b-c433cea0685e/resource/24fc759a-ff0b-479a-a72a-c91a9384540f/download/stations.csv)')
+st.markdown('[Link to the GitHub](https://github.com/Langyuzhen)')
 st.markdown('## Import: The Dataset is about Waterquality')
 
 import numpy as np
